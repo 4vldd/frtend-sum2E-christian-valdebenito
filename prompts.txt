@@ -3,3 +3,7 @@ Prompt N1 - Haz un index.html para un consultorio médico llamado SaludPlus usan
 Prompt N2 - Ahora crea un styles.css para el index.html anterior. Quiero un diseño moderno para un sitio médico usando Flexbox y Grid, colores profesionales y diseño responsive.
 
 Prompt N3 - Basado en el mismo proyecto SaludPlus, crea un formulario turnos.html para solicitud de horas médicas usando fieldset, legend, inputs, select y textarea.
+
+Prompt N4 - Agrega estilos CSS al formulario turnos.html del proyecto SaludPlus. Necesito fieldset modernos, formulario centrado, hover en inputs, focus y clases para ocultar campos dinámicos.
+
+Prompt N5 - 
