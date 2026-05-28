@@ -1,11 +1,95 @@
-Prompt N1 - Haz un index.html para un consultorio médico llamado SaludPlus usando HTML5 semántico. Necesito header con navegación, hero section, especialidades médicas, médicos, obras sociales, contacto y footer.
+Prompt N°1
 
-Prompt N2 - Ahora crea un styles.css para el index.html anterior. Quiero un diseño moderno para un sitio médico usando Flexbox y Grid, colores profesionales y diseño responsive.
+Haz un index.html para un consultorio médico llamado SaludPlus usando HTML5 semántico. Necesito header con navegación, hero section, especialidades médicas, médicos, obras sociales, contacto y footer.
 
-Prompt N3 - Basado en el mismo proyecto SaludPlus, crea un formulario turnos.html para solicitud de horas médicas usando fieldset, legend, inputs, select y textarea.
+Respuesta recibida
 
-Prompt N4 - Agrega estilos CSS al formulario turnos.html del proyecto SaludPlus. Necesito fieldset modernos, formulario centrado, hover en inputs, focus y clases para ocultar campos dinámicos.
+Copilot generó la estructura principal del sitio usando etiquetas semánticas como header, nav, section, main y footer. También creó las secciones principales de la página.
 
-Prompt N5 - Haz codigo Javascript vanilla para mostrar u ocultar campos del formulario según lo que seleccione el usuario. Necesito que funcione con modalidad, cobertura médica, primera visita y estudios previos.
+Explicación
 
-Prompt N6 - 
+Este código me ayudó a crear la base del sitio web. Las secciones quedaron separadas de forma ordenada y eso facilitó después agregar estilos y contenido.
+
+Cambios realizados
+
+Agregué más texto descriptivo en algunas secciones y modifiqué nombres de médicos para que el sitio se viera más completo.
+
+Prompt N°2
+
+Ahora crea un styles.css para el index.html anterior. Quiero un diseño moderno para un sitio médico usando Flexbox y Grid, colores profesionales y diseño responsive.
+
+Respuesta recibida
+
+Copilot creó estilos para el menú, hero section, tarjetas de especialidades y footer. También usó Grid y Flexbox para distribuir elementos.
+
+Explicación
+
+El CSS permitió mejorar la apariencia visual del sitio y ordenar correctamente las secciones. Grid se utilizó para las especialidades y Flexbox para el header y las tarjetas médicas.
+
+Cambios realizados
+
+Cambié algunos colores y tamaños de texto para que el diseño se viera más limpio y profesional.
+
+Prompt N°3
+
+Basado en el mismo proyecto SaludPlus, crea un formulario turnos.html para solicitud de horas médicas usando fieldset, legend, inputs, select y textarea.
+
+Respuesta recibida
+
+Copilot generó un formulario dividido en varias secciones para los datos del paciente, datos del turno, cobertura médica e información adicional.
+
+Explicación
+
+Este formulario sirve para que los usuarios puedan solicitar una hora médica ingresando sus datos personales y datos de atención.
+
+Cambios realizados
+
+Agregué placeholders en algunos campos y reorganicé ciertas partes para mejorar la visualización del formulario.
+
+Prompt N°4
+
+Agrega estilos CSS al formulario turnos.html del proyecto SaludPlus. Necesito fieldset modernos, formulario centrado, hover en inputs, focus y clases para ocultar campos dinámicos.
+
+Respuesta recibida
+
+Copilot generó estilos para los fieldset, botones, inputs y clases para mostrar errores y ocultar campos dinámicos.
+
+Explicación
+
+Los estilos ayudaron a que el formulario se viera más moderno y ordenado. También se agregaron efectos visuales para mejorar la experiencia del usuario.
+
+Cambios realizados
+
+Modifiqué algunos tamaños de botones y colores para que combinaran mejor con el diseño principal del sitio.
+
+Prompt N°5
+
+Haz codigo Javascript vanilla para mostrar u ocultar campos del formulario según lo que seleccione el usuario. Necesito que funcione con modalidad, cobertura médica, primera visita y estudios previos.
+
+Respuesta recibida
+
+Copilot creó eventos usando addEventListener para detectar cambios en selects y checkbox, mostrando u ocultando campos según la selección del usuario.
+
+Explicación
+
+Este código hace que el formulario sea dinámico, mostrando solo los campos necesarios dependiendo de las opciones seleccionadas.
+
+Cambios realizados
+
+Reorganicé algunas condiciones y cambié nombres de variables para entender mejor el funcionamiento del código.
+
+Prompt N°6
+
+Crea validaciones JavaScript para el formulario de SaludPlus. Validar nombre, apellido, DNI, email, teléfono, fechas, horarios y campos obligatorios usando JavaScript vanilla.
+
+Respuesta recibida
+
+Copilot generó funciones para validar distintos campos usando expresiones regulares y verificaciones de fechas y horarios. También agregó clases de error y validación correcta.
+
+Explicación
+
+Las validaciones sirven para evitar datos incorrectos antes de enviar el formulario. El sistema revisa cada campo y muestra mensajes si existe algún error.
+
+Cambios realizados
+
+Modifiqué algunos mensajes de error y ajusté ciertas validaciones para que fueran más claras y estrictas.
