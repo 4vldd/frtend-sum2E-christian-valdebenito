@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solicitud de Turnos - SaludPlus</title>
-    <link rel="stylesheet" href="turnos.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <!-- Encabezado -->
     <header>
         <div class="logo">
             <h1>SaludPlus</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#hero">Inicio</a></li>
                 <li><a href="turnos.html">Solicitar Turno</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Formulario de Solicitud de Turnos -->
-    <main>
-        <section>
+    <main class="contenedor-turnos">
+        <section class="formulario-seccion">
             <h2>Solicitud de Turnos</h2>
-            <form action="#" method="post">
+            <form action="#" method="post" class="form-turnos">
                 <fieldset>
                     <legend>Información Personal</legend>
                     <label for="nombre">Nombre Completo:</label>
@@ -55,20 +53,51 @@
                     <input type="time" id="hora" name="hora" required>
                 </fieldset>
 
+                <fieldset id="modalidad-fieldset" class="hidden">
+                    <legend>Modalidad de Atención</legend>
+                    <label for="modalidad">Seleccione la modalidad:</label>
+                    <select id="modalidad" name="modalidad">
+                        <option value="presencial">Presencial</option>
+                        <option value="virtual">Telemedicina (Virtual)</option>
+                    </select>
+                </fieldset>
+
+                <fieldset id="cobertura-fieldset" class="hidden">
+                    <legend>Información de Cobertura</legend>
+                    <label for="nro-afiliado">Número de Afiliado / Obra Social:</label>
+                    <input type="text" id="nro-afiliado" name="nro-afiliado" placeholder="Ej: OSDE - 123456">
+                </fieldset>
+
+                <fieldset id="primera-visita-fieldset" class="hidden">
+                    <legend>Historial en la Clínica</legend>
+                    <label>¿Es su primera visita con este especialista?</label>
+                    <select id="primera-visita" name="primera-visita">
+                        <option value="si">Sí, es mi primera vez</option>
+                        <option value="no">No, ya me he atendido antes</option>
+                    </select>
+                </fieldset>
+
+                <fieldset id="estudios-previos-fieldset" class="hidden">
+                    <legend>Estudios Previos</legend>
+                    <label for="estudios">¿Dispone de estudios cardiológicos recientes? (Menciónelos aquí):</label>
+                    <textarea id="estudios" name="estudios" rows="2" placeholder="Ej: Electrocardiograma, Ergometría..."></textarea>
+                </fieldset>
+
                 <fieldset>
                     <legend>Comentarios Adicionales</legend>
                     <label for="comentarios">Comentarios:</label>
                     <textarea id="comentarios" name="comentarios" rows="4" placeholder="Ingrese cualquier comentario adicional"></textarea>
                 </fieldset>
 
-                <button type="submit">Solicitar Turno</button>
+                <button type="submit" class="btn-submit">Solicitar Turno</button>
             </form>
         </section>
     </main>
 
-    <!-- Pie de página -->
     <footer>
         <p>&copy; 2026 SaludPlus. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="validaciones.js"></script>
 </body>
 </html>
