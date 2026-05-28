@@ -1,0 +1,3 @@
+Prompt N1 - Haz un index.html para un consultorio médico llamado SaludPlus usando HTML5 semántico. Necesito header con navegación, hero section, especialidades médicas, médicos, obras sociales, contacto y footer.
+
+Prompt N2 - Ahora crea un styles.css para el index.html anterior. Quiero un diseño moderno para un sitio médico usando Flexbox y Grid, colores profesionales y diseño responsive.
