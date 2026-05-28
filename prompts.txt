@@ -6,4 +6,6 @@ Prompt N3 - Basado en el mismo proyecto SaludPlus, crea un formulario turnos.htm
 
 Prompt N4 - Agrega estilos CSS al formulario turnos.html del proyecto SaludPlus. Necesito fieldset modernos, formulario centrado, hover en inputs, focus y clases para ocultar campos dinámicos.
 
-Prompt N5 - 
+Prompt N5 - Haz codigo Javascript vanilla para mostrar u ocultar campos del formulario según lo que seleccione el usuario. Necesito que funcione con modalidad, cobertura médica, primera visita y estudios previos.
+
+Prompt N6 - 
