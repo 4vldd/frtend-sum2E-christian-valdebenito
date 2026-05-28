@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Turnos - SaludPlus</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>SaludPlus</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="turnos.html">Solicitar Turno</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulario de Solicitud de Turnos -->
+    <main>
+        <section>
+            <h2>Solicitud de Turnos</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Detalles del Turno</legend>
+                    <label for="especialidad">Especialidad Médica:</label>
+                    <select id="especialidad" name="especialidad" required>
+                        <option value="">Seleccione una especialidad</option>
+                        <option value="cardiologia">Cardiología</option>
+                        <option value="pediatria">Pediatría</option>
+                        <option value="dermatologia">Dermatología</option>
+                    </select>
+
+                    <label for="fecha">Fecha del Turno:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+
+                    <label for="hora">Hora del Turno:</label>
+                    <input type="time" id="hora" name="hora" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentarios Adicionales</legend>
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" placeholder="Ingrese cualquier comentario adicional"></textarea>
+                </fieldset>
+
+                <button type="submit">Solicitar Turno</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 SaludPlus. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
